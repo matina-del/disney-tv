@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>童年回忆 - 分类</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">童年回忆</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="category.html" class="active">分类</a></li>
+                <li><a href="collection.html">收藏</a></li>
+            </ul>
+            <div class="nav-search">
+                <form action="search.html" method="get">
+                    <input type="text" name="q" placeholder="搜索动画片..." class="search-input">
+                    <button type="submit" class="search-btn">搜索</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 分类内容区域 -->
+    <main class="main-content">
+        <h1>动画片分类</h1>
+
+        <!-- 分类导航栏（Tabs） -->
+        <section class="tabs-bar" id="category-tabs">
+            <button class="tab-btn" data-category="迪士尼经典">迪士尼经典</button>
+            <button class="tab-btn" data-category="华纳兄弟">华纳兄弟</button>
+            <button class="tab-btn" data-category="经典国产">经典国产</button>
+        </section>
+
+        <!-- 筛选与排序区域 -->
+        <section class="filter-bar">
+            <div class="filter-group">
+                <span class="filter-label">年代：</span>
+                <div class="filter-options" id="decade-options">
+                    <button class="filter-btn" data-decade="all">全部</button>
+                    <button class="filter-btn" data-decade="1930">1930s</button>
+                    <button class="filter-btn" data-decade="1940">1940s</button>
+                    <button class="filter-btn" data-decade="1950">1950s</button>
+                    <button class="filter-btn" data-decade="1960">1960s</button>
+                    <button class="filter-btn" data-decade="1970">1970s</button>
+                    <button class="filter-btn" data-decade="1980">1980s</button>
+                    <button class="filter-btn" data-decade="1990">1990s</button>
+                </div>
+            </div>
+            <div class="sort-group">
+                <span class="filter-label">排序：</span>
+                <select id="sort-select" class="sort-select">
+                    <option value="default">默认</option>
+                    <option value="rating_desc">评分最高</option>
+                    <option value="year_desc">年份最新</option>
+                    <option value="year_asc">年份最早</option>
+                </select>
+            </div>
+            <div class="active-filters" id="active-filters"></div>
+        </section>
+
+        <!-- 动画片网格 -->
+        <section class="grid-section">
+            <div id="category-grid" class="category-grid">
+                <!-- 通过JS渲染卡片 -->
+            </div>
+        </section>
+
+        <!-- 分页器 -->
+        <section class="pagination" id="pagination">
+            <!-- 通过JS渲染分页按钮 -->
+        </section>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>童年回忆 - 搜索结果</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">童年回忆</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="category.html">分类</a></li>
+                <li><a href="collection.html">收藏</a></li>
+            </ul>
+            <div class="nav-search">
+                <form action="search.html" method="get">
+                    <input type="text" name="q" placeholder="搜索动画片..." class="search-input" id="nav-search-input">
+                    <button type="submit" class="search-btn"><span class="icon-search">🔍</span><span>搜索</span></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 搜索内容区域 -->
+    <main class="main-content">
+        <!-- 搜索区域 -->
+        <section class="search-section">
+            <div class="search-box-container">
+                <form action="search.html" method="get" class="search-form" id="main-search-form">
+                    <input type="text" name="q" placeholder="搜索动画片名称、导演、标签..." 
+                           class="main-search-input" id="main-search-input" autocomplete="off">
+                    <button type="submit" class="main-search-btn">搜索</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- 热门搜索（无搜索时显示） -->
+        <section class="hot-search-section" id="hot-search-section">
+            <h2 class="hot-search-title">热门搜索</h2>
+            <div class="hot-search-tags" id="hot-search-tags">
+                <!-- 动态生成热门搜索标签 -->
+            </div>
+        </section>
+
+        <!-- 搜索结果区域 -->
+        <section class="search-results-section" id="search-results-section" style="display: none;">
+            <div class="search-results-header">
+                <h2 class="search-keyword" id="search-keyword">搜索结果：</h2>
+                <div class="search-count" id="search-count">找到0部动画片</div>
+            </div>
+            <div class="search-results-grid" id="search-results-grid">
+                <!-- 搜索结果将通过JavaScript动态生成 -->
+            </div>
+        </section>
+
+        <!-- 无结果状态 -->
+        <section class="no-results-section" id="no-results-section" style="display: none;">
+            <div class="no-results-icon">🔍</div>
+            <div class="no-results-text">没有找到相关动画片</div>
+            <div class="no-results-hint">换个关键词试试</div>
+        </section>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

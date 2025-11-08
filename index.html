@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>童年回忆 - 首页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">童年回忆</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="category.html">分类</a></li>
+                <li><a href="collection.html">收藏</a></li>
+            </ul>
+            <div class="nav-search">
+                <form action="search.html" method="get">
+                    <input type="text" name="q" placeholder="搜索动画片..." class="search-input">
+                    <button type="submit" class="search-btn"><span class="icon-search">🔍</span><span>搜索</span></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <!-- 轮播图区域 -->
+        <section class="carousel" aria-label="热门轮播">
+            <div class="carousel-inner" id="carousel-slides">
+                <!-- 动态插入轮播项 -->
+            </div>
+            <button class="carousel-arrow left" id="carousel-prev" aria-label="上一张">‹</button>
+            <button class="carousel-arrow right" id="carousel-next" aria-label="下一张">›</button>
+            <div class="carousel-dots" id="carousel-dots">
+                <!-- 动态插入圆点 -->
+            </div>
+        </section>
+
+        <!-- 热门推荐区域 -->
+        <section class="section-block">
+            <div class="section-title">热门推荐</div>
+            <div class="card-row scroll-x" id="hot-list">
+                <!-- 动态插入卡片 -->
+            </div>
+        </section>
+
+        <!-- 分类展示区域 -->
+        <section class="section-block" id="cat-disney">
+            <div class="section-title with-deco">迪士尼经典</div>
+            <div class="card-row" id="list-disney">
+                <!-- 动态插入卡片 -->
+            </div>
+        </section>
+
+        <section class="section-block" id="cat-warner">
+            <div class="section-title with-deco">华纳兄弟</div>
+            <div class="card-row" id="list-warner">
+                <!-- 动态插入卡片 -->
+            </div>
+        </section>
+
+        <section class="section-block" id="cat-china">
+            <div class="section-title with-deco">经典国产</div>
+            <div class="card-row" id="list-china">
+                <!-- 动态插入卡片 -->
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部区域 -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>© 2025 童年回忆</div>
+            <div class="tip">友情提示：本站仅供学习交流，视频来源于网络</div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/performance.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // 初始化性能优化
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof initPerformanceOptimizations === 'function') {
+                initPerformanceOptimizations();
+            }
+        });
+    </script>
+</body>
+</html>
+
