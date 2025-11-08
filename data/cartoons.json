@@ -1,0 +1,556 @@
+[
+    {
+        "id": 1,
+        "title": "猫和老鼠",
+        "englishTitle": "Tom and Jerry",
+        "year": 1940,
+        "director": "威廉·汉纳、约瑟夫·巴伯拉",
+        "category": "华纳兄弟",
+        "cover": "images/covers/tom-and-jerry.jpg",
+        "description": "汤姆猫和杰瑞鼠之间永不停歇的追逐与搞笑故事，充满幽默和智慧，是陪伴无数人童年的经典动画片。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "猫和老鼠第一集",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "7:30"
+            },
+            {
+                "episodeNumber": 2,
+                "title": "猫和老鼠第二集",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "7:25"
+            },
+            {
+                "episodeNumber": 3,
+                "title": "猫和老鼠第三集",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "7:40"
+            }
+        ],
+        "tags": [
+            "喜剧",
+            "冒险",
+            "童年",
+            "经典"
+        ],
+        "rating": 8.5
+    },
+    {
+        "id": 2,
+        "title": "白雪公主",
+        "englishTitle": "Snow White and the Seven Dwarfs",
+        "year": 1937,
+        "director": "大卫·汉德",
+        "category": "迪士尼经典",
+        "cover": "images/covers/snow-white.jpg",
+        "description": "迪士尼首部动画长片，讲述美丽善良的白雪公主与七个小矮人的温馨故事，开启了迪士尼动画的黄金时代。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "白雪公主完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "83:00"
+            }
+        ],
+        "tags": [
+            "童话",
+            "爱情",
+            "冒险",
+            "经典"
+        ],
+        "rating": 7.8
+    },
+    {
+        "id": 3,
+        "title": "米老鼠",
+        "englishTitle": "Mickey Mouse",
+        "year": 1928,
+        "director": "华特·迪士尼",
+        "category": "迪士尼经典",
+        "cover": "images/covers/mickey-mouse.jpg",
+        "description": "迪士尼最经典的卡通形象，米老鼠的冒险故事充满欢乐和正能量，陪伴了全球几代人的成长。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "米老鼠第一集",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "8:00"
+            },
+            {
+                "episodeNumber": 2,
+                "title": "米老鼠第二集",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "7:50"
+            }
+        ],
+        "tags": [
+            "喜剧",
+            "冒险",
+            "童年",
+            "经典"
+        ],
+        "rating": 6.6
+    },
+    {
+        "id": 4,
+        "title": "葫芦兄弟",
+        "englishTitle": "Calabash Brothers",
+        "year": 1986,
+        "director": "胡进庆、周克勤",
+        "category": "经典国产",
+        "cover": "images/covers/calabash-brothers.jpg",
+        "description": "七个葫芦娃兄弟各具神通，与蛇精、蝎子精斗智斗勇，展现团结与智慧的力量，是中国动画的经典之作。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "神峰奇遇",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "20:00"
+            },
+            {
+                "episodeNumber": 2,
+                "title": "七色葫芦",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "20:00"
+            },
+            {
+                "episodeNumber": 3,
+                "title": "误入泥潭",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "20:00"
+            }
+        ],
+        "tags": [
+            "冒险",
+            "神话",
+            "童年",
+            "经典"
+        ],
+        "rating": 8.9
+    },
+    {
+        "id": 5,
+        "title": "大闹天宫",
+        "englishTitle": "Havoc in Heaven",
+        "year": 1961,
+        "director": "万籁鸣、唐澄",
+        "category": "经典国产",
+        "cover": "images/covers/havoc-in-heaven.jpg",
+        "description": "根据《西游记》改编的经典动画，孙悟空大闹天宫的精彩故事，展现了中国传统动画的艺术魅力。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "大闹天宫上集",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "60:00"
+            },
+            {
+                "episodeNumber": 2,
+                "title": "大闹天宫下集",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "60:00"
+            }
+        ],
+        "tags": [
+            "神话",
+            "冒险",
+            "经典",
+            "传统"
+        ],
+        "rating": 9.8
+    },
+    {
+        "id": 6,
+        "title": "小鹿斑比",
+        "englishTitle": "Bambi",
+        "year": 1942,
+        "director": "大卫·汉德",
+        "category": "迪士尼经典",
+        "cover": "images/covers/bambi.jpg",
+        "description": "讲述小鹿斑比从幼年到成年的成长历程，充满温情与自然之美，是迪士尼动画的经典之作。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "小鹿斑比完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "70:00"
+            }
+        ],
+        "tags": [
+            "成长",
+            "自然",
+            "温情",
+            "经典"
+        ],
+        "rating": 9.4
+    },
+    {
+        "id": 7,
+        "title": "灰姑娘",
+        "englishTitle": "Cinderella",
+        "year": 1950,
+        "director": "克莱德·杰罗尼米",
+        "category": "迪士尼经典",
+        "cover": "images/covers/cinderella.jpg",
+        "description": "经典的童话故事，善良的灰姑娘在仙女的帮助下参加舞会，最终与王子幸福地生活在一起。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "灰姑娘完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "74:00"
+            }
+        ],
+        "tags": [
+            "童话",
+            "爱情",
+            "梦想",
+            "经典"
+        ],
+        "rating": 7.3
+    },
+    {
+        "id": 8,
+        "title": "兔八哥",
+        "englishTitle": "Bugs Bunny",
+        "year": 1940,
+        "director": "特克斯·艾弗里",
+        "category": "华纳兄弟",
+        "cover": "images/covers/bugs-bunny.jpg",
+        "description": "聪明机智的兔八哥总是能巧妙地化解各种危机，充满幽默和智慧，是华纳兄弟的经典卡通形象。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "兔八哥第一集",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "7:00"
+            },
+            {
+                "episodeNumber": 2,
+                "title": "兔八哥第二集",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "7:15"
+            }
+        ],
+        "tags": [
+            "喜剧",
+            "冒险",
+            "童年",
+            "经典"
+        ],
+        "rating": 9.5
+    },
+    {
+        "id": 9,
+        "title": "黑猫警长",
+        "englishTitle": "Black Cat Detective",
+        "year": 1984,
+        "director": "戴铁郎",
+        "category": "经典国产",
+        "cover": "images/covers/black-cat-detective.jpg",
+        "description": "机智勇敢的黑猫警长带领森林警察维护森林和平，破获各种案件，是80后童年的经典回忆。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "痛歼搬仓鼠",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "20:00"
+            },
+            {
+                "episodeNumber": 2,
+                "title": "空中擒敌",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "20:00"
+            },
+            {
+                "episodeNumber": 3,
+                "title": "吃红土的小偷",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "20:00"
+            }
+        ],
+        "tags": [
+            "冒险",
+            "正义",
+            "童年",
+            "经典"
+        ],
+        "rating": 6.3
+    },
+    {
+        "id": 10,
+        "title": "睡美人",
+        "englishTitle": "Sleeping Beauty",
+        "year": 1959,
+        "director": "克莱德·杰罗尼米",
+        "category": "迪士尼经典",
+        "cover": "images/covers/sleeping-beauty.jpg",
+        "description": "美丽的公主被邪恶女巫诅咒陷入沉睡，最终被王子的真爱之吻唤醒，是迪士尼最经典的童话之一。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "睡美人完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "75:00"
+            }
+        ],
+        "tags": [
+            "童话",
+            "爱情",
+            "魔法",
+            "经典"
+        ],
+        "rating": 6.8
+    },
+    {
+        "id": 11,
+        "title": "小美人鱼",
+        "englishTitle": "The Little Mermaid",
+        "year": 1989,
+        "director": "罗恩·克莱门茨、约翰·马斯克",
+        "category": "迪士尼经典",
+        "cover": "images/covers/little-mermaid.jpg",
+        "description": "爱丽儿公主为了追求真爱，用声音换取双腿，最终与人类王子相爱的浪漫故事，开启了迪士尼动画的复兴时代。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "小美人鱼完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "83:00"
+            }
+        ],
+        "tags": [
+            "童话",
+            "爱情",
+            "冒险",
+            "经典"
+        ],
+        "rating": 6.5
+    },
+    {
+        "id": 12,
+        "title": "狮子王",
+        "englishTitle": "The Lion King",
+        "year": 1994,
+        "director": "罗杰·阿勒斯、罗伯·明可夫",
+        "category": "迪士尼经典",
+        "cover": "images/covers/lion-king.jpg",
+        "description": "小狮子辛巴在朋友的帮助下，克服困难成为真正的狮子王，充满成长、责任与勇气的经典故事。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "狮子王完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "88:00"
+            }
+        ],
+        "tags": [
+            "成长",
+            "冒险",
+            "友情",
+            "经典"
+        ],
+        "rating": 9.6
+    },
+    {
+        "id": 13,
+        "title": "阿拉丁",
+        "englishTitle": "Aladdin",
+        "year": 1992,
+        "director": "罗恩·克莱门茨、约翰·马斯克",
+        "category": "迪士尼经典",
+        "cover": "images/covers/aladdin.jpg",
+        "description": "穷小子阿拉丁在神灯的帮助下，与茉莉公主相爱的浪漫冒险故事，充满魔法与梦想。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "阿拉丁完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "90:00"
+            }
+        ],
+        "tags": [
+            "冒险",
+            "爱情",
+            "魔法",
+            "经典"
+        ],
+        "rating": 8.7
+    },
+    {
+        "id": 14,
+        "title": "美女与野兽",
+        "englishTitle": "Beauty and the Beast",
+        "year": 1991,
+        "director": "加里·特鲁兹代尔、柯克·怀斯",
+        "category": "迪士尼经典",
+        "cover": "images/covers/beauty-and-beast.jpg",
+        "description": "美丽的贝儿用真爱化解了野兽的诅咒，展现了真爱的力量，是迪士尼最浪漫的动画之一。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "美女与野兽完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "84:00"
+            }
+        ],
+        "tags": [
+            "童话",
+            "爱情",
+            "魔法",
+            "经典"
+        ],
+        "rating": 7.5
+    },
+    {
+        "id": 15,
+        "title": "花木兰",
+        "englishTitle": "Mulan",
+        "year": 1998,
+        "director": "托尼·班克罗夫特、巴里·库克",
+        "category": "迪士尼经典",
+        "cover": "images/covers/mulan.jpg",
+        "description": "花木兰女扮男装替父从军，在战场上展现勇气与智慧，最终成为英雄的励志故事。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "花木兰完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "87:00"
+            }
+        ],
+        "tags": [
+            "励志",
+            "冒险",
+            "勇气",
+            "经典"
+        ],
+        "rating": 9.7
+    },
+    {
+        "id": 16,
+        "title": "三个和尚",
+        "englishTitle": "Three Monks",
+        "year": 1980,
+        "director": "徐景达",
+        "category": "经典国产",
+        "cover": "images/covers/three-monks.jpg",
+        "description": "三个和尚没水喝的故事，通过幽默的方式展现团结合作的重要性，是中国动画的经典短片。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "三个和尚完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "18:00"
+            }
+        ],
+        "tags": [
+            "哲理",
+            "幽默",
+            "经典",
+            "传统"
+        ],
+        "rating": 8.6
+    },
+    {
+        "id": 17,
+        "title": "九色鹿",
+        "englishTitle": "Nine-Colored Deer",
+        "year": 1981,
+        "director": "钱家骏、戴铁郎",
+        "category": "经典国产",
+        "cover": "images/covers/nine-colored-deer.jpg",
+        "description": "根据敦煌壁画改编的经典动画，讲述九色鹿救人的故事，展现了中国传统艺术的魅力。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "九色鹿完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "25:00"
+            }
+        ],
+        "tags": [
+            "神话",
+            "传统",
+            "艺术",
+            "经典"
+        ],
+        "rating": 7.9
+    },
+    {
+        "id": 18,
+        "title": "哪吒闹海",
+        "englishTitle": "Nezha Conquers the Dragon King",
+        "year": 1979,
+        "director": "王树忱、严定宪、徐景达",
+        "category": "经典国产",
+        "cover": "images/covers/nezha-conquers-dragon.jpg",
+        "description": "小英雄哪吒大闹东海，与龙王斗智斗勇的精彩故事，展现了中国传统神话的魅力。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "哪吒闹海完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "65:00"
+            }
+        ],
+        "tags": [
+            "神话",
+            "冒险",
+            "英雄",
+            "经典"
+        ],
+        "rating": 8.3
+    },
+    {
+        "id": 19,
+        "title": "天书奇谭",
+        "englishTitle": "The Legend of Sealed Book",
+        "year": 1983,
+        "director": "王树忱、钱运达",
+        "category": "经典国产",
+        "cover": "images/covers/sealed-book.jpg",
+        "description": "蛋生学习天书法术，与狐狸精斗智斗勇的奇幻故事，充满中国传统文化的韵味。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "天书奇谭完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "89:00"
+            }
+        ],
+        "tags": [
+            "神话",
+            "冒险",
+            "传统",
+            "经典"
+        ],
+        "rating": 7.6
+    },
+    {
+        "id": 20,
+        "title": "雪孩子",
+        "englishTitle": "Snow Kid",
+        "year": 1980,
+        "director": "林文肖",
+        "category": "经典国产",
+        "cover": "images/covers/snow-kid.jpg",
+        "description": "雪孩子为了救小兔子而融化自己的感人故事，展现了友谊与牺牲的珍贵，温暖了无数人的心。",
+        "episodes": [
+            {
+                "episodeNumber": 1,
+                "title": "雪孩子完整版",
+                "videoUrl": "videos/adbfc758dc88c25e39634dd78094f5c0.mp4",
+                "duration": "20:00"
+            }
+        ],
+        "tags": [
+            "温情",
+            "友情",
+            "感人",
+            "经典"
+        ],
+        "rating": 9.2
+    }
+]

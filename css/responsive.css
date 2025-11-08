@@ -1,0 +1,81 @@
+/* 响应式样式 */
+
+/* 平板端：768px - 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* 全局字体与间距 */
+    body { line-height: 1.6; }
+    .main-content { padding: 30px 16px; }
+
+    /* 首页卡片：每行3个（通过grid自适应）*/
+    .card-row { gap: 16px; }
+    .card { width: 100%; }
+
+    /* 分类/搜索/收藏网格：每行3个 */
+    .category-grid,
+    .search-results-grid,
+    .collection-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+    /* 筛选区横向排布保持，但压缩间距 */
+    .filter-bar { gap: 10px 12px; }
+}
+
+/* 移动端：<768px */
+@media (max-width: 767.98px) {
+    /* 全局字体与间距调整 */
+    body { font-size: 14px; }
+    .main-content { padding: 16px 12px; }
+    .main-content h1 { font-size: 20px; }
+
+    /* 导航栏 */
+    .nav-container { padding: 8px 12px; }
+    .nav-logo a { font-size: 20px; } /* Logo缩小 */
+    /* 模拟汉堡菜单样式（需配合按钮类名 .hamburger 使用）*/
+    .hamburger { display: inline-flex; width: 36px; height: 36px; align-items: center; justify-content: center; color: #FFF8DC; border: 1px solid rgba(255,255,255,0.3); border-radius: 6px; background: transparent; }
+    .nav-menu { display: none; width: 100%; flex-direction: column; gap: 10px; margin-top: 8px; }
+    .nav-container.show-menu .nav-menu { display: flex; } /* 通过添加 .show-menu 控制展开 */
+    /* 搜索框隐藏，仅保留按钮，获取焦点时展开 */
+    .nav-search form { position: relative; }
+    .nav-search .search-input { width: 0; padding: 0; border-width: 0; transition: width 0.25s; }
+    .nav-search .search-btn { padding: 6px 10px; }
+    .nav-search .search-input:focus { width: 160px; padding: 6px 10px; border-width: 1px; }
+
+    /* 首页：轮播图高度缩小 */
+    .carousel { height: 250px; }
+    .carousel-caption { font-size: 14px; padding: 10px 12px; }
+
+    /* 首页：卡片间距缩小，网格改2列（使用grid容器时）*/
+    .card-row { gap: 10px; }
+    .category-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .search-results-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .collection-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+
+    /* 视频页：播放器宽度100%，控件更大便于点击 */
+    .video-wrapper { margin: 0 0 16px 0; }
+    .video-container { border-radius: 6px; }
+    .control-btn { font-size: 20px; }
+    .speed-select { padding: 6px 8px; font-size: 14px; }
+    .progress-bar { height: 8px; }
+    .progress-thumb { width: 16px; height: 16px; }
+
+    /* 剧集列表：每行3个 */
+    .episodes-grid { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+
+    /* 分类/收藏页：筛选区域纵向排列，压缩间距 */
+    .filter-bar { flex-direction: column; align-items: stretch; gap: 10px; }
+    .filter-options { justify-content: flex-start; }
+
+    /* 搜索页：搜索框宽度100%，热门标签缩小 */
+    .search-box-container { max-width: 100%; }
+    .main-search-input { height: 46px; }
+    .main-search-btn { height: 46px; padding: 0 16px; }
+    .hot-search-tag { padding: 6px 12px; font-size: 12px; }
+}
+
+/* 桌面端：>1024px（可微调更大间距）*/
+@media (min-width: 1025px) {
+    .card-row { gap: 18px; }
+    .category-grid,
+    .search-results-grid,
+    .collection-grid { gap: 20px; }
+}
+

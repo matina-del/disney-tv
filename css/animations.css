@@ -1,0 +1,209 @@
+/* 动画效果样式 */
+
+/* ================= CSS变量（主题色管理） ================= */
+:root {
+    --primary-color: #8B4513;
+    --bg-color: #FFF8DC;
+    --accent-color: #4169E1;
+    --hover-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
+    --transition-fast: 0.2s;
+    --transition-normal: 0.3s;
+    --transition-slow: 0.5s;
+}
+
+/* ================= 页面加载动画 ================= */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.page-content {
+    animation: fadeIn 0.6s ease-out;
+}
+
+.main-content > * {
+    animation: fadeIn 0.6s ease-out;
+}
+
+.main-content > *:nth-child(1) { animation-delay: 0.1s; }
+.main-content > *:nth-child(2) { animation-delay: 0.2s; }
+.main-content > *:nth-child(3) { animation-delay: 0.3s; }
+.main-content > *:nth-child(4) { animation-delay: 0.4s; }
+
+/* ================= 卡片悬停效果 ================= */
+.card,
+.collection-card,
+.related-card {
+    transition: transform var(--transition-normal) ease, 
+                box-shadow var(--transition-normal) ease;
+}
+
+.card:hover,
+.collection-card:hover,
+.related-card:hover {
+    transform: scale(1.05);
+    box-shadow: var(--hover-shadow);
+}
+
+/* ================= 按钮点击反馈 ================= */
+@keyframes buttonClick {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button:active,
+.control-btn:active,
+.page-btn:active,
+.filter-btn:active,
+.tab-btn:active,
+.search-btn:active,
+.main-search-btn:active,
+.favorite-btn:active,
+.remove-favorite-btn:active {
+    animation: buttonClick 0.2s ease;
+}
+
+/* ================= 轮播图切换动画 ================= */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity var(--transition-slow) ease-in-out;
+}
+
+.carousel-slide.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+/* ================= 收藏按钮心跳动画 ================= */
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.15);
+    }
+}
+
+.favorite-btn.clicked {
+    animation: heartbeat 0.6s ease;
+}
+
+/* ================= 搜索框聚焦动画 ================= */
+.main-search-input {
+    transition: border-color var(--transition-normal) ease,
+                box-shadow var(--transition-normal) ease;
+}
+
+.main-search-input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.1);
+}
+
+.search-input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(65, 105, 225, 0.1);
+}
+
+/* ================= 滚动动画（淡入） ================= */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.fade-in-up.visible {
+    opacity: 1;
+}
+
+/* ================= 加载状态动画 ================= */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.loading {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+}
+
+/* ================= 平滑滚动 ================= */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ================= 过渡效果优化 ================= */
+* {
+    transition-property: transform, opacity, box-shadow, background-color, color;
+    transition-duration: var(--transition-fast);
+    transition-timing-function: ease;
+}
+
+/* 排除不需要过渡的元素 */
+img,
+video,
+iframe {
+    transition: none;
+}
+
